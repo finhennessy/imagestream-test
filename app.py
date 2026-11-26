@@ -5,7 +5,7 @@ application = Flask(__name__)
 
 @application.route("/")
 def hello():
-    return "Hello from Source-to-Image!"
+    return "Hello from Source-to-Image! I've changed since you were last here!"
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8080))
